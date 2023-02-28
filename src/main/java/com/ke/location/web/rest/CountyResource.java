@@ -20,7 +20,6 @@ import java.util.List;
 import java.util.Optional;
 @Slf4j
 @RestController
-@CrossOrigin(origins = "/api1/county")
 @RequestMapping(path = "/api1/county")
 
 public class CountyResource {
